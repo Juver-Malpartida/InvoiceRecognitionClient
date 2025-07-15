@@ -55,7 +55,7 @@ partial class Form1
         btnUploadInvoice.Name = "btnUploadInvoice";
         btnUploadInvoice.Size = new Size(180, 40);
         btnUploadInvoice.TabIndex = 0;
-        btnUploadInvoice.Text = "Cargar Factura(s) con IA";
+        btnUploadInvoice.Text = "Cargar Factura(s)";
         btnUploadInvoice.Click += btnUploadInvoice_Click;
         // 
         // lvInvoices
@@ -155,7 +155,7 @@ partial class Form1
         Controls.Add(pnlReview);
         Controls.Add(lblNotification);
         Name = "Form1";
-        Text = "Reconocimiento de Facturas con IA";
+        Text = "Reconocimiento de Facturas";
         Controls.Add(lblNotification);
         pnlReview.ResumeLayout(false);
         ((System.ComponentModel.ISupportInitialize)picturePreview).EndInit();
